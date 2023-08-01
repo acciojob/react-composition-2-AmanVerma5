@@ -14,14 +14,14 @@
     background-color: #ec9697;
     transform: translateY(3px);
  }
- .modal-overlay{
+ .model-overlay{
     margin-top:10px;
     border:2px solid grey;
     width:30%;
     height:40vh;
     background-color: aquamarine;
  }
- .modal-close, .modal-p{
+ .model-close, .model-p{
     margin-top: 10px;
     margin-left: 10px;
  }

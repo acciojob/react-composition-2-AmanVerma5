@@ -1,6 +1,12 @@
 import React from "react";
 
 const ModalContainer=({handleClick})=>{
+
+    window.addEventListener("click",function(event){
+        if(event.target.classList.contains("model-overlay")){
+            handleClick(false)
+        }
+    })
     return(
         <div className="model-overlay">
             <button className="model-close" onClick={()=>handleClick(false)}>Close</button>
