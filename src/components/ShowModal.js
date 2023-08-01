@@ -11,7 +11,7 @@ const ShowModal=()=>{
             <button onClick={()=>setOpen(true)}>Show Modal</button>
             {open && (
         <ModalContainer handleClick={() => setOpen(false)}>
-          <p className="model-p">This is the content of the modal</p>
+          <div className="model"><p>This is the content of the modal</p></div>
         </ModalContainer>
       )}
         </div>
