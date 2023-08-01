@@ -1,6 +1,6 @@
 import React from "react";
 
-const ModalContainer=({handleClick})=>{
+const ModalContainer=({handleClick,children})=>{
 
     window.addEventListener("click",function(event){
         if(event.target.classList.contains("model-overlay")){
@@ -10,7 +10,7 @@ const ModalContainer=({handleClick})=>{
     return(
         <div className="model-overlay">
             <button className="model-close" onClick={()=>handleClick(false)}>Close</button>
-            <p className="model-p">This is the content of the modal</p>
+            {children}
         </div>
     )
 }
