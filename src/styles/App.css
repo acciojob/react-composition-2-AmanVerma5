@@ -1,1 +1,27 @@
+ button{
+    background-color: #e2393b;
+    border:none;
+    color:whitesmoke;
+    width:100px;   
+    height:30px;
+    border-radius: 10px;
+}
+ button:hover{
+    background-color: #e42628;
+ }
 
+ button:active{
+    background-color: #ec9697;
+    transform: translateY(3px);
+ }
+ .modal-overlay{
+    margin-top:10px;
+    border:2px solid grey;
+    width:30%;
+    height:40vh;
+    background-color: aquamarine;
+ }
+ .modal-close, .modal-p{
+    margin-top: 10px;
+    margin-left: 10px;
+ }
